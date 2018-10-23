@@ -8,7 +8,7 @@
           "browser": true,
           "node": true
       },
-     "extends": ["eslint:recommended2"],
+     "extends": ["eslint:recommended3"],
      "rules": {
         "no-compare-neg-zero": "warn"
      }
