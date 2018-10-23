@@ -12,7 +12,7 @@
      "rules": { "no-compare-neg-zero": "warn" }
     },
     "coffeelintConfig": {
-        { "extends": "coffeelint-config-myconfig" },
+        "extends": "coffeelint-config-myconfig",
         "arrow_spacing": {
             "level": "ignore"
         }
