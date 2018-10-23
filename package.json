@@ -2,5 +2,15 @@
     "dependencies": {
         "clone": "~2.1.0",
         "parserlib": "~1.1.1"
+    },
+    "eslintConfig": {
+      "env": {
+          "browser": true,
+          "node": true
+      },
+     "extends": ["eslint:recommended2"],
+     "rules": {
+        "no-compare-neg-zero": "warn"
+     }
     }
 }
