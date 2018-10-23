@@ -9,8 +9,12 @@
           "node": true
       },
      "extends": ["eslint:recommended4"],
-     "rules": {
-        "no-compare-neg-zero": "warn"
-     }
+     "rules": { "no-compare-neg-zero": "warn" }
+    },
+    "coffeelintConfig": {
+        { "extends": "coffeelint-config-myconfig" },
+        "arrow_spacing": {
+            "level": "ignore"
+        }
     }
 }
